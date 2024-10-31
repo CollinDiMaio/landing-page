@@ -49,7 +49,7 @@ a {
 .left-box {
     display: flex;
     flex-direction: column;
-    flex-basis: 33%;
+    flex-basis: 20%;
     align-items: start;
     gap: 15px;
 }
@@ -76,4 +76,8 @@ button {
 
 .button-1 {
     border-width: 0;
+}
+
+.TV-img {
+    flex-shrink: 2;
 }
