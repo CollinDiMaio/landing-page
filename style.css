@@ -45,6 +45,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 35px;
+    padding: 40px;
 }
 
 .left-box {
