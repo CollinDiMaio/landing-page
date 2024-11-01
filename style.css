@@ -81,3 +81,48 @@ button {
 .TV-img {
     flex-shrink: 2;
 }
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 20px
+}
+.gallery-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 40px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.chit {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    max-width: 150px;
+    min-width: 150px;
+}
+
+#sub-img {
+    width: 150px;
+    height:150px;
+    background: white;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #1F2937;
+}
