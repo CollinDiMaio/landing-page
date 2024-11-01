@@ -151,3 +151,27 @@ p {
     font-weight: 800;
     align-self: flex-end;
 }
+
+.call {
+    background-color: #3882F6;
+    display: flex;
+    gap: 50px;
+    padding: 45px 60px;
+    margin: 70px;
+    border-radius: 8px;
+}
+
+.top-text {
+    font-size: 20px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.bottom-text {
+    font-size: 15px;
+    color: #F9FAF8;
+}
+
+.button-2 {
+    border: 2px solid #F9FAF8;
+}
