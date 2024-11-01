@@ -40,6 +40,7 @@ a {
 }
 
 .TV {
+    background-color: #1F2937;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,4 +126,11 @@ button {
 p {
     font-size: 14px;
     color: #1F2937;
+}
+
+.quote-box {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
 }
