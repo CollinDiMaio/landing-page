@@ -132,5 +132,20 @@ p {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+    max-width: 85%;    
+}
+
+.originator {
+    font-size: 24px;
+    font-weight: 800;
 }
